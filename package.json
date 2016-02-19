@@ -1,8 +1,11 @@
 {
   "name": "babel-preset-tree-shaking",
   "version": "1.0.1",
-  "description": "",
+  "description": "Babel preset based on es2015 with commonJS module loader omitted",
   "main": "index.js",
+  "author": "Joe Fitter <hello@joefitter.com> (http://joefitter.com/)",
+  "license": "MIT",
+  "repository": "https://github.com/joefitter/babel-preset-tree-shaking",
   "dependencies": {
     "babel-plugin-transform-es2015-template-literals": "^6.3.13",
     "babel-plugin-transform-es2015-literals": "^6.3.13",
@@ -24,10 +27,7 @@
     "babel-plugin-transform-es2015-typeof-symbol": "^6.3.13",
     "babel-plugin-transform-regenerator": "^6.3.13"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Joe Fitter <hello@joefitter.com> (http://joefitter.com/)",
-  "license": "MIT"
+  "devDependencies": {
+    "babel-helper-transform-fixture-test-runner": "^6.3.13"
+  }
 }
