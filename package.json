@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-tree-shaking",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Babel preset based on es2015 with commonJS module loader omitted",
   "main": "index.js",
   "author": "Joe Fitter <hello@joefitter.com> (http://joefitter.com/)",
